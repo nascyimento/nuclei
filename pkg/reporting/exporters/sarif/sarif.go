@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
+	"github.com/nascyimento/nuclei/v3/pkg/catalog/config"
+	"github.com/nascyimento/nuclei/v3/pkg/output"
 	"github.com/projectdiscovery/sarif"
 )
 

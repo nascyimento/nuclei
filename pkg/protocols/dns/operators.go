@@ -8,13 +8,13 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/extractors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/nascyimento/nuclei/v3/pkg/model"
+	"github.com/nascyimento/nuclei/v3/pkg/operators/extractors"
+	"github.com/nascyimento/nuclei/v3/pkg/operators/matchers"
+	"github.com/nascyimento/nuclei/v3/pkg/output"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/nascyimento/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/retryabledns"
 )
 

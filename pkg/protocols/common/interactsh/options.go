@@ -4,10 +4,10 @@ import (
 	"time"
 
 	"github.com/projectdiscovery/interactsh/pkg/client"
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz/frequency"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting"
+	"github.com/nascyimento/nuclei/v3/pkg/fuzz/frequency"
+	"github.com/nascyimento/nuclei/v3/pkg/output"
+	"github.com/nascyimento/nuclei/v3/pkg/progress"
+	"github.com/nascyimento/nuclei/v3/pkg/reporting"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 

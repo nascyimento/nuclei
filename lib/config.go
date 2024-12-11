@@ -9,16 +9,16 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/ratelimit"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/authprovider"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/hosterrorscache"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/utils/vardump"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/headless/engine"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
+	"github.com/nascyimento/nuclei/v3/pkg/authprovider"
+	"github.com/nascyimento/nuclei/v3/pkg/catalog"
+	"github.com/nascyimento/nuclei/v3/pkg/model/types/severity"
+	"github.com/nascyimento/nuclei/v3/pkg/output"
+	"github.com/nascyimento/nuclei/v3/pkg/progress"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/common/hosterrorscache"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/common/interactsh"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/common/utils/vardump"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/headless/engine"
+	"github.com/nascyimento/nuclei/v3/pkg/templates/types"
 )
 
 // TemplateSources contains template sources
@@ -57,6 +57,14 @@ type TemplateFilters struct {
 	IDs                  []string // filter by template IDs
 	ExcludeIDs           []string // filter by excluding template IDs
 	TemplateCondition    []string // DSL condition/ expression
+}
+
+func WithResponseReadSize(size int) NucleiSDKOptions {
+	return func(e *NucleiEngine) error {
+		e.opts.ResponseReadSize = size
+		e.opts.ResponseSaveSize = size
+		return nil
+	}
 }
 
 // WithTemplateFilters sets template filters and only templates matching the filters will be

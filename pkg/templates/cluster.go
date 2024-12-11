@@ -6,13 +6,13 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/writer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
+	"github.com/nascyimento/nuclei/v3/pkg/model"
+	"github.com/nascyimento/nuclei/v3/pkg/operators"
+	"github.com/nascyimento/nuclei/v3/pkg/output"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/common/helpers/writer"
+	"github.com/nascyimento/nuclei/v3/pkg/scan"
+	"github.com/nascyimento/nuclei/v3/pkg/templates/types"
 	cryptoutil "github.com/projectdiscovery/utils/crypto"
 )
 

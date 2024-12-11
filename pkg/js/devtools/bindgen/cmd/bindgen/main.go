@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 
 	"github.com/pkg/errors"
-	generator "github.com/projectdiscovery/nuclei/v3/pkg/js/devtools/bindgen"
+	generator "github.com/nascyimento/nuclei/v3/pkg/js/devtools/bindgen"
 	fileutil "github.com/projectdiscovery/utils/file"
 )
 

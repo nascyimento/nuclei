@@ -12,7 +12,7 @@ import (
 	"text/template"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/devtools/tsgen"
+	"github.com/nascyimento/nuclei/v3/pkg/js/devtools/tsgen"
 	fileutil "github.com/projectdiscovery/utils/file"
 )
 

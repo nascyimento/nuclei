@@ -1,14 +1,14 @@
 package protocolinit
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/compiler"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/dns/dnsclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http/httpclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http/signerpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/network/networkclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/whois/rdapclientpool"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/nascyimento/nuclei/v3/pkg/js/compiler"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/dns/dnsclientpool"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/http/httpclientpool"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/http/signerpool"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/network/networkclientpool"
+	"github.com/nascyimento/nuclei/v3/pkg/protocols/whois/rdapclientpool"
+	"github.com/nascyimento/nuclei/v3/pkg/types"
 	_ "github.com/projectdiscovery/utils/global"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/gobwas/ws/wsutil"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/nascyimento/nuclei/v3/pkg/testutils"
 )
 
 var websocketTestCases = []TestCaseInfo{
