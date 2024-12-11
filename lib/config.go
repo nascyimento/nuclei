@@ -59,6 +59,13 @@ type TemplateFilters struct {
 	TemplateCondition    []string // DSL condition/ expression
 }
 
+func WithResponseReadSize(size int) NucleiSDKOptions {
+	return func(e *NucleiEngine) error {
+		e.opts.ResponseReadSize = size
+		return nil
+	}
+}
+
 // WithTemplateFilters sets template filters and only templates matching the filters will be
 // loaded and executed
 func WithTemplateFilters(filters TemplateFilters) NucleiSDKOptions {
